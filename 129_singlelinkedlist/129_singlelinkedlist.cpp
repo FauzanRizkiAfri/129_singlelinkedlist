@@ -3,9 +3,12 @@
 
 #include <iostream>
 using namespace std;
+#include <iostream>
+using namespace std;
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+struct Node {
+	int noMhs;
+	string name;
+	Node* next;
+};
 
